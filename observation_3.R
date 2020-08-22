@@ -1,0 +1,1 @@
+ggplot(mydata[1:100,], aes(teaching, research) ) + geom_point(size=3.5,shape=18) + coord_cartesian(xlim = c(58,86)) + scale_x_continuous(breaks = seq(60,85,5)) + geom_smooth()

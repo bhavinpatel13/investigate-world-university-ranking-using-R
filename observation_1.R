@@ -1,0 +1,5 @@
+install.packages("ggplot2")
+library(ggplot2)
+mydata <- read.csv("D:/LAKEHEAD WINTER 2019/DATA SCI/project/timesData.csv")
+View(mydata)
+ggplot(mydata[1:100,]) + geom_bar(aes(country))
